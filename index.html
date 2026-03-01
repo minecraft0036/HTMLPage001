@@ -6,10 +6,10 @@
     <link href="Style.css" rel="stylesheet" />
     <script src="file1.js"></script>
 </head>
-<body><div id="card">
+<body style="user-select:none"><div id="card">
     <nav>
         <style>
-            nav {background-color:forestgreen;text-align:center;position:fixed;z-index:1200;width:100%}
+            nav {background-color:forestgreen;text-align:center;position:fixed;top:0px; z-index:1200;width:100%;}
             nav a {text-decoration:none;}
             nav li {
                 list-style:none;
@@ -29,7 +29,7 @@
       <div id="main">
           <style>
               #main {
-                  position:absolute;left:100px;
+                  position:absolute;
                   background-color: aqua;
                   position: relative;
                   top: 300px;width:70%
@@ -59,16 +59,24 @@
           <h3>レスポンシブデザイン</h3>
           <p>現代のWebページは、パソコン、タブレット、スマートフォンなど、様々なデバイスで表示されます。異なる画面サイズに対応させることを「レスポンシブデザイン」と呼びます。</p>
           <h4 id="sd">ddddd</h4>
-          <script src="file1.js">//var d=document.getElementById("sd").addEventListener("click",()=>console.log("dfsd"))</script>
+         
       </div>
     <div id="Prof">
+        <img src="d.png" width="100" height="100"/>
+        <div id="con"style="border-top:dotted black 5px">
+            <p>minecraft</p>
+
+        </div>
         <style>
             #Prof {
                 display:inline-block;
                 background-color:burlywood;
-                position:absolute; top:100px; right:0;height:500px;width:200px;position:fixed;
+                position:absolute; top:100px; right:0;height:auto;width:200px;position:fixed;
             }
             body {position:relative;background-color:papayawhip}
+            #Prof img {
+                padding-left:25px;
+            }
         </style>
     </div>
 </body>
